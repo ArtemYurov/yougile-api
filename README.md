@@ -1,6 +1,7 @@
 # yougile-api
 Библиотека для работы с [YouGile REST API v2.0](https://ru.yougile.com/api-v2#/)
 
+Описание и примеры: [shafeev.net](https://shafeev.net/stati/obertka-dlya-yougile-rest-api/)
 
 ## Установка
 Через Composer
