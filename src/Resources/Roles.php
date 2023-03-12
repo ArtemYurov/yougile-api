@@ -29,7 +29,7 @@ class Roles extends Yougile
      * @return mixed
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function create($params){
+    public function create($id, $params){
         return $this->request( self::$res . "/" . $id . "/roles" , 'POST', $params);
     }
 
