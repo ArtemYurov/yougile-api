@@ -7,7 +7,7 @@ use Yougile\StickersClient;
 use Yougile\Yougile;
 
 
-class SprintStickers extends Yougile
+class Sprintstickers extends Yougile
 {
 
     public static $res = "string-stickers";

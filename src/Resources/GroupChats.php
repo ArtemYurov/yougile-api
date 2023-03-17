@@ -7,7 +7,7 @@ use Yougile\BaseClient;
 use Yougile\Yougile;
 
 
-class GroupChats extends Yougile
+class Groupchats extends Yougile
 {
 
     public static $res = "group-chats";
