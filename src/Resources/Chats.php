@@ -28,7 +28,7 @@ class Chats extends Yougile
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function create($id, $params){
-        return $this->request( self::$res . '/' . $id . "/messages", $params);
+        return $this->request( self::$res . '/' . $id . "/messages", 'POST', $params);
     }
 
     /**
