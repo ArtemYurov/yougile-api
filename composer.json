@@ -1,13 +1,12 @@
 {
-    "name": "shami/yougile",
+    "name": "artemyurov/yougile",
     "description": "YouGile REST API\n",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Shamil Shafeev",
-            "email": "shamilshafeev@gmail.com",
-            "homepage": "https://shafeev.net/",
+            "name": "Aretm Yurov",
+            "email": "artem@yurov.org",
             "role": "Developer"
         }
     ],
