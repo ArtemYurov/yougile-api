@@ -7,8 +7,12 @@ trait BaseClient{
     /**
      * @return mixed
      */
-    public function get_list(){
-        return $this->request( self::$res , 'GET');
+    public function get_list($query = NULL){
+        if (is_array($query) || is_object($query)) {
+            return $this->request(self::$res . '?' . http_build_query($query), 'GET');
+        } else {
+            return $this->request(self::$res , 'GET');
+        }
     }
 
     /**
